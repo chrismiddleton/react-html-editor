@@ -1,0 +1,4 @@
+# Building
+
+npm install --save-dev babel-cli babel-preset-env babel-plugin-transform-react-jsx
+./node_modules/babel-cli/bin/babel.js --plugins transform-react-jsx index.js
