@@ -1,4 +1,12 @@
+# How devDependencies in package.json were generated:
+
+	npm install --save-dev babel-cli babel-preset-env babel-plugin-transform-react-jsx webpack webpack-cli babel-loader react react-dom
+
 # Building
 
-npm install --save-dev babel-cli babel-preset-env babel-plugin-transform-react-jsx
-./node_modules/babel-cli/bin/babel.js --plugins transform-react-jsx index.js
+Run the following from the top of the project directory:
+
+	npm install
+	npx webpack
+	
+Then either copy the dist folder or make a symlink to it as appropriate to view in your web browser.

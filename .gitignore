@@ -3,3 +3,6 @@
 
 # Node
 node_modules
+
+# project
+dist/main.js
